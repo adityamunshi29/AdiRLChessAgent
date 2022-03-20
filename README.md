@@ -1,8 +1,8 @@
 
-### Learning to play chess through Deep model-based RL
+### Kaspybot
 #### Aditya Munshi
 
-This is a work in progress, a chess engine that can play against other computational agents and humans. Nowadays I am training newer models.
+This is a weak chess engine that can play against other weak computational agents and weak humans. Nowadays I am training less weak models.
 
 
 
