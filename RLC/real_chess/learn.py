@@ -14,7 +14,7 @@ def sigmoid(x):
 
 
 class TD_search(object):
-#def _init_ is constructor method
+
     def __init__(self, env, agent, gamma=0.9, search_time=1, memsize=2000, batch_size=256, temperature=1):
         """
         Chess algorithm that combines bootstrapped monte carlo tree search with Q Learning
@@ -26,7 +26,7 @@ class TD_search(object):
             memsize: Amount of training samples to keep in-memory
             batch_size: Size of the training batches
             temperature: softmax temperature for mcts
-        """ #simulated annealing is choosing the best minimum from a sample, ideally global optimum needed
+        """ 
         self.env = env
         self.agent = agent
         self.tree = Node(self.env)
