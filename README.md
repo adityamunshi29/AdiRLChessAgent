@@ -2,5 +2,5 @@
 ### KaspyBot
 #### Aditya Munshi
 
-#####Model based Chess Engine
+Model based Chess Engine
 
